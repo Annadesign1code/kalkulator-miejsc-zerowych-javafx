@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="15.0" prefWidth="400.0" prefHeight="450.0" xmlns="http://javafx.com" xmlns:fx="http://javafx.com" fx:controller="org.example.KalkulatorController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label text="Kalkulator Funkcji Kwadratowej">
+        <font>
+            <Font name="System Bold" size="18.0" />
+        </font>
+    </Label>
+
+    <VBox spacing="5.0">
+        <Label text="Podaj współczynnik a:" />
+        <TextField fx:id="poleA" promptText="Wpisz liczbę a..." />
+    </VBox>
+
+    <VBox spacing="5.0">
+        <Label text="Podaj współczynnik b:" />
+        <TextField fx:id="poleB" promptText="Wpisz liczbę b..." />
+    </VBox>
+
+    <VBox spacing="5.0">
+        <Label text="Podaj współczynnik c:" />
+        <TextField fx:id="poleC" promptText="Wpisz liczbę c..." />
+    </VBox>
+
+    <Button mnemonicParsing="false" onAction="#oblicz" prefWidth="150.0" text="Oblicz" textAlignment="CENTER">
+        <font>
+            <Font name="System Bold" size="14.0" />
+        </font>
+    </Button>
+
+    <Label fx:id="labelWynik" text="Wprowadź dane i kliknij Oblicz." textAlignment="CENTER" wrapText="true">
+        <font>
+            <Font size="13.0" />
+        </font>
+    </Label>
+</VBox>
