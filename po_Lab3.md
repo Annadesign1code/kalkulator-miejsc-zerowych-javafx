@@ -181,27 +181,5 @@ Opis testów i przykładowe wyniki:
 
 
 
-## 💾Przesłanie pliku do oceny:
-Nazwa pliku do przesłania: PO_Lab3_KowalskiJan.zip (https://upload2.pelo.com.pl) 
 
-
-## <img src="https://img.icons8.com/color/48/approval.png" alt="Piktogram ocena prowadzacego" width="24" /> Ocena prowadzącego
-
-| Element oceny | Punkty maks. | Punkty uzyskane |
-|---|---:|---:|
-| Poprawność działania | 5 |  |
-| Zastosowanie OOP | 5 |  |
-| Jakość kodu | 3 |  |
-| Terminowość oddania | 2 |  |
-| **Suma** | **15** |  |
-
-Uwagi prowadzącego:
-
-................................................................................
-
-................................................................................
-
-Ocena końcowa(skala ocen: 2, 2.5, 3, 3.5, 4, 4.5, 5): .......... 
-
-Podpis prowadzącego: ........................................................
 
