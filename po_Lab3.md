@@ -11,7 +11,7 @@
 
 **Przedmiot:** *Programowanie obiektowe*  
 
-## <img src="https://img.icons8.com/color/48/student-male--v1.png" alt="Piktogram dane studenta" width="24" /> Dane studenta
+
 
 
 
